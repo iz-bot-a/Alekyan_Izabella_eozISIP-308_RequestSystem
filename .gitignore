@@ -30,7 +30,7 @@ secrets.*
 *secret*
 *credentials*
 
-# Системные файлы
+#Системные файлы
 .DS_Store
 Thumbs.db
 desktop.ini
