@@ -1,0 +1,41 @@
+# Python: виртуальное окружение и кэш
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Локальные базы данных и файлы данных
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+secrets.*
+*secret*
+*credentials*
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Временные и резервные файлы
+*.log
+*.tmp
+*.bak
